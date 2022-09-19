@@ -1,0 +1,11 @@
+import "thumbViewModel.idl";
+
+namespace ThumbView
+{
+    [default_interface]
+    runtimeclass MainControl : Windows.UI.Xaml.Controls.UserControl
+    {
+        MainControl();
+        Windows.Foundation.Collections.IObservableVector<IInspectable> ThumbViewModelVec{ get; };
+    }
+}

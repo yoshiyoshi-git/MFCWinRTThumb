@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly
+ xmlns="urn:schemas-microsoft-com:asm.v1"
+ xmlns:asmv3="urn:schemas-microsoft-com:asm.v3"
+ manifestVersion="1.0">
+	<asmv3:file name="ThumbView.dll">
+		<activatableClass
+			name="ThumbView.App"
+			threadingModel="both"
+			xmlns="urn:schemas-microsoft-com:winrt.v1" />
+		<activatableClass
+			name="ThumbView.XamlMetadataProvider"
+			threadingModel="both"
+			xmlns="urn:schemas-microsoft-com:winrt.v1" />
+		<activatableClass
+			name="ThumbView.MainControl"
+			threadingModel="both"
+			xmlns="urn:schemas-microsoft-com:winrt.v1" />
+		
+	</asmv3:file>
+</assembly>
